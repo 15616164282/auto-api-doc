@@ -1,4 +1,4 @@
-# auto-api-doc
+# auto_api_doc
 
 根据接口文档自动生成接口文件,axios请自行封装
 当前版本只接受Knife4j 与swagger-ui ，文件上传支持base64，其他方式暂不支持请在自动生成后自行修改
@@ -6,7 +6,7 @@
 ## 安装
 
 ```
-npm i auto-api-doc -g
+npm i auto_api_doc -g
 ```
 
 ## 使用方法
@@ -15,7 +15,8 @@ npm i auto-api-doc -g
 2. 在 autoApiConfig.js 配置接口文档地址及封装的方法名
 3. 执行 auto api 命令
 ```
-auto api
+auto api   //生成普通接口
+auto mgop  //生成mgop接口
 ```
 ### autoApiConfig.js 
 ```

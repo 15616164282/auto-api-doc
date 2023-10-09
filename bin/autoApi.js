@@ -11,7 +11,15 @@ program
   .description("使用当前路径下的autoApiConfig.js配置文件生成后台对应接口文件")
   .action(function (filepath) {
     console.log("Auto Api");
-    getConfig();
+    getConfig('api');
+  });
+
+program
+  .command("mgop [config_file_path]")
+  .description("使用当前路径下的autoApiConfig.js配置文件生成后台对应mgop接口文件")
+  .action(function (filepath) {
+    console.log("Auto Mgop");
+    getConfig('mgop');
   });
 
 program.parse(process.argv);

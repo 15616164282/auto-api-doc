@@ -1,6 +1,6 @@
 {
   "name": "auto_api_doc",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "description": "配置接口文档地址，自动生成接口请求文件",
   "main": "index.js",
   "module": "index.js",
@@ -10,7 +10,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Automatically", "generate", "interface"," methods"],
+  "keywords": [
+    "Automatically",
+    "generate",
+    "interface",
+    "methods"
+  ],
   "author": "zhanghctop",
   "license": "ISC",
   "dependencies": {
@@ -18,7 +23,7 @@
     "chalk": "^5.2.0",
     "commander": "^6.2.1",
     "ejs": "^3.1.9",
-    "file-system": "^2.2.2",
+    "file-system": "^1.2.2",
     "lodash": "^4.17.21"
   },
   "type": "module",
