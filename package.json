@@ -1,6 +1,6 @@
 {
   "name": "auto_api_doc",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "配置接口文档地址，自动生成接口请求文件",
   "main": "index.js",
   "module": "index.js",
